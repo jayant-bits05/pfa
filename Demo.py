@@ -7,14 +7,14 @@ Original file is located at
     https://colab.research.google.com/drive/1emiFubF_1KxTdwLaCpmTFqvO4hEqUmwl
 """
 
-def mean(x):
+def Mean(x):
   """"this function give avg of list or tupple"""
   temp =0
   for i in x :
     temp = i + temp
   return temp/len(x)
 
-def median(x):
+def Median(x):
   """"this function give mod of list or tupple"""
   n=len(x)
   if n % 2 == 0:
